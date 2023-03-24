@@ -8,5 +8,7 @@
         public bool OnSale { get; set; }
         public int CategoryID { get; set; }
         public int StockLevel { get; set; }
+
+        public IEnumerable<Category> Categories { get; set; }
     }
 }
