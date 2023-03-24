@@ -1,4 +1,6 @@
-﻿namespace Testing.Models
+﻿using System.Collections.Generic;
+
+namespace Testing.Models
 {
     public class Product
     {
