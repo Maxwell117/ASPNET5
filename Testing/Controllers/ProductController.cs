@@ -18,5 +18,11 @@ namespace Testing.Controllers
 
             return View(products);
         }
+
+        public IActionResult ViewProduct(int id)
+        {
+            var product = _repository.GetProduct(id);
+            return View(product);
+        }
     }
 }

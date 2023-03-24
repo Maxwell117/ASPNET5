@@ -14,7 +14,7 @@
 	   @foreach(var product in @Model)
 	   {
 		  <tr>
-		     <th>@product.ProductID</th>
+		    <td><a href=/Product/ViewProduct/@product.ProductID>@product.ProductID</a></td>
 			<th>@product.Name</th>
 			<th>@product.Price</th>
 			<th>@product.CategoryID</th>
